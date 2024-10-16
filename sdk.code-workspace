@@ -1,7 +1,7 @@
 {
     "folders": [
         {
-            "path": ".."
+            "path": "."
         }
     ],
     "settings": {
@@ -37,7 +37,7 @@
         // Workbench
         "workbench.startupEditor": "none",
         "workbench.iconTheme": "vscode-icons",
-        "workbench.colorTheme": "Mix Night blue",
+        "workbench.colorTheme": "Prime Contrast (rainglow)",
         "workbench.colorCustomizations": {
             "statusBar.background": "#00b7ff",    // Color de fondo de la barra inferior
             "statusBarItem.hoverBackground": "#333333",  // Color al pasar el ratón sobre elementos en la barra

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/devpablocristo/golang/sdk/pkg/messaging/rabbitmq/amqp091/prod-cons/ports"
+	"github.com/devpablocristo/golang-sdk/messaging/rabbitmq/amqp091/prod-cons/ports"
 )
 
 // Bootstrap inicializa una nueva instancia de Messaging con configuración de Viper.

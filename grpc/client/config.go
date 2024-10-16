@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/grpc/client/ports"
+	ports "github.com/devpablocristo/golang-sdk/grpc/client/ports"
 )
 
 // config estructura que implementa la interfaz ports.Config para el cliente

@@ -3,7 +3,7 @@ package sdkpg
 import (
 	"fmt"
 
-	"github.com/devpablocristo/golang/sdk/pkg/databases/sql/postgresql/pq/ports"
+	"github.com/devpablocristo/golang-sdk/databases/sql/postgresql/pq/ports"
 )
 
 type config struct {

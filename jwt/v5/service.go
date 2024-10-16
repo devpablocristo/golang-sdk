@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 
-	"github.com/devpablocristo/golang/sdk/pkg/jwt/v5/ports"
+	"github.com/devpablocristo/golang-sdk/jwt/v5/ports"
 )
 
 var (

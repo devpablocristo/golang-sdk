@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/devpablocristo/golang/sdk/pkg/databases/sql/mysql/go-sql-driver/ports"
+	"github.com/devpablocristo/golang-sdk/databases/sql/mysql/go-sql-driver/ports"
 	_ "github.com/go-sql-driver/mysql"
 )
 

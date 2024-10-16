@@ -3,7 +3,7 @@ package sdkjwt
 import (
 	"fmt"
 
-	"github.com/devpablocristo/golang/sdk/pkg/jwt/v5/ports"
+	"github.com/devpablocristo/golang-sdk/jwt/v5/ports"
 )
 
 type config struct {

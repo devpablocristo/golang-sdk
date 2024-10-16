@@ -3,7 +3,7 @@ package sdkjwt
 import (
 	"github.com/spf13/viper"
 
-	"github.com/devpablocristo/golang/sdk/pkg/jwt/v5/ports"
+	"github.com/devpablocristo/golang-sdk/jwt/v5/ports"
 )
 
 func Bootstrap() (ports.Service, error) {

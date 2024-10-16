@@ -12,7 +12,7 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/postgres"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/sql/postgresql/pgxpool/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/sql/postgresql/pgxpool/ports"
 )
 
 var (

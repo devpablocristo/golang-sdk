@@ -3,7 +3,7 @@ package sdkrabbit
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/rabbitmq-broker/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/rabbitmq-broker/ports"
 )
 
 // config estructura que implementa la interfaz ports.Config para RabbitMQ.

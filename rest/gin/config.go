@@ -3,7 +3,7 @@ package sdkgin
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/rest/gin/ports"
+	ports "github.com/devpablocristo/golang-sdk/rest/gin/ports"
 )
 
 type config struct {

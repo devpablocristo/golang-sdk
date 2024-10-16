@@ -3,7 +3,7 @@ package sdkcassandra
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/nosql/cassandra/gocql/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/nosql/cassandra/gocql/ports"
 )
 
 type config struct {

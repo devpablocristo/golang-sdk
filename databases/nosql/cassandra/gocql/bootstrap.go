@@ -3,7 +3,7 @@ package sdkcassandra
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/nosql/cassandra/gocql/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/nosql/cassandra/gocql/ports"
 )
 
 func Bootstrap() (ports.Repository, error) {

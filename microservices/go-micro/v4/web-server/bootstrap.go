@@ -3,7 +3,7 @@ package sdkgomicro
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/web-server/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/web-server/ports"
 )
 
 func Bootstrap(webRouter interface{}) (ports.Server, error) {

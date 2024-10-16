@@ -3,7 +3,7 @@ package sdkgin
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/rest/gin/ports"
+	ports "github.com/devpablocristo/golang-sdk/rest/gin/ports"
 )
 
 func Bootstrap() (ports.Server, error) {

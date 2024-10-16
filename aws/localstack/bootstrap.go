@@ -3,7 +3,7 @@ package sdkawslocal
 import (
 	"github.com/spf13/viper"
 
-	"github.com/devpablocristo/golang/sdk/pkg/aws/localstack/ports"
+	"github.com/devpablocristo/golang-sdk/aws/localstack/ports"
 )
 
 func Bootstrap() (ports.Stack, error) {

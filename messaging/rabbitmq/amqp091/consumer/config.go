@@ -3,7 +3,7 @@ package sdkrabbit
 import (
 	"fmt"
 
-	"github.com/devpablocristo/golang/sdk/pkg/messaging/rabbitmq/amqp091/consumer/ports"
+	"github.com/devpablocristo/golang-sdk/messaging/rabbitmq/amqp091/consumer/ports"
 )
 
 // config estructura que implementa la interfaz ports.Config para el consumidor de RabbitMQ.

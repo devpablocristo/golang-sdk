@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 
-	"github.com/devpablocristo/golang/sdk/pkg/aws/localstack/ports"
+	"github.com/devpablocristo/golang-sdk/aws/localstack/ports"
 )
 
 var (

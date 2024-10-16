@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/cache/redis/v8/ports"
+	ports "github.com/devpablocristo/golang-sdk/cache/redis/v8/ports"
 	"github.com/go-redis/redis/v8"
 )
 

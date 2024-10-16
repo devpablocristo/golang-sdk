@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/rabbitmq-broker/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/rabbitmq-broker/ports"
 )
 
 func Bootstrap() (ports.Broker, error) {

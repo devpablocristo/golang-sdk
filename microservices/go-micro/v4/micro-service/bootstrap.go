@@ -3,10 +3,10 @@ package sdkgomicro
 import (
 	"github.com/spf13/viper"
 
-	sdkclient "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/grpc-client/ports"
-	sdkserver "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/grpc-server/ports"
-	sdkservice "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/micro-service/ports"
-	sdkbroker "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/rabbitmq-broker/ports"
+	sdkclient "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/grpc-client/ports"
+	sdkserver "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/grpc-server/ports"
+	sdkservice "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/micro-service/ports"
+	sdkbroker "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/rabbitmq-broker/ports"
 )
 
 func Bootstrap(server sdkserver.Server, client sdkclient.Client, broker sdkbroker.Broker) (sdkservice.Service, error) {

@@ -3,7 +3,7 @@ package sdkgomicro
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/grpc-server/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/grpc-server/ports"
 )
 
 func Bootstrap() (ports.Server, error) {

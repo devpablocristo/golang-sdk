@@ -3,7 +3,7 @@ package sdkcgrpcclient
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/grpc/client/ports"
+	ports "github.com/devpablocristo/golang-sdk/grpc/client/ports"
 )
 
 func Bootstrap() (ports.Client, error) {

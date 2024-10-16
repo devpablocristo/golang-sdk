@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/repo-tools/ast/ports"
+	ports "github.com/devpablocristo/golang-sdk/repo-tools/ast/ports"
 	"golang.org/x/tools/go/callgraph"
 	"golang.org/x/tools/go/callgraph/static"
 	"golang.org/x/tools/go/packages"

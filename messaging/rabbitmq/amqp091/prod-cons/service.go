@@ -7,7 +7,7 @@ import (
 
 	"github.com/rabbitmq/amqp091-go"
 
-	"github.com/devpablocristo/golang/sdk/pkg/messaging/rabbitmq/amqp091/prod-cons/ports"
+	"github.com/devpablocristo/golang-sdk/messaging/rabbitmq/amqp091/prod-cons/ports"
 )
 
 var (

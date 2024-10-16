@@ -3,7 +3,7 @@ package sdkgogit
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/repo-tools/go-git/v5/ports"
+	ports "github.com/devpablocristo/golang-sdk/repo-tools/go-git/v5/ports"
 )
 
 type config struct {

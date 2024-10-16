@@ -3,7 +3,7 @@ package sdkawslocal
 import (
 	"fmt"
 
-	"github.com/devpablocristo/golang/sdk/pkg/aws/localstack/ports"
+	"github.com/devpablocristo/golang-sdk/aws/localstack/ports"
 )
 
 type configSdk struct {

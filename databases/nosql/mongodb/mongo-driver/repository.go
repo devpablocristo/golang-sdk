@@ -9,7 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/nosql/mongodb/mongo-driver/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/nosql/mongodb/mongo-driver/ports"
 )
 
 var (

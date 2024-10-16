@@ -6,7 +6,7 @@ import (
 	"log"
 	"sync"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/sql/postgresql/pq/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/sql/postgresql/pq/ports"
 
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/postgres"

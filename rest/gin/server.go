@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/rest/gin/ports"
+	ports "github.com/devpablocristo/golang-sdk/rest/gin/ports"
 )
 
 var (

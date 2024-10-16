@@ -3,7 +3,7 @@ package sdkredis
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/cache/redis/v8/ports"
+	ports "github.com/devpablocristo/golang-sdk/cache/redis/v8/ports"
 )
 
 func Bootstrap() (ports.Cache, error) {

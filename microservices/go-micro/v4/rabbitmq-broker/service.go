@@ -9,7 +9,7 @@ import (
 	"go-micro.dev/v4/broker"
 	"go-micro.dev/v4/logger"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/rabbitmq-broker/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/rabbitmq-broker/ports"
 )
 
 var (

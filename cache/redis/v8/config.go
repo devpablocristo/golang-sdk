@@ -3,7 +3,7 @@ package sdkredis
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/cache/redis/v8/ports"
+	ports "github.com/devpablocristo/golang-sdk/cache/redis/v8/ports"
 )
 
 type config struct {

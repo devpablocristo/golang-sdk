@@ -3,7 +3,7 @@ package sdkast
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/repo-tools/ast/ports"
+	ports "github.com/devpablocristo/golang-sdk/repo-tools/ast/ports"
 )
 
 type config struct {

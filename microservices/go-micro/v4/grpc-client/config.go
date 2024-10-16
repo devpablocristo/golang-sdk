@@ -3,7 +3,7 @@ package sdkgomicro
 import (
 	"fmt"
 
-	"github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/grpc-client/ports"
+	"github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/grpc-client/ports"
 )
 
 type config struct {

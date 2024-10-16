@@ -76,7 +76,7 @@ func getCallerPath() (string, error) {
 		}
 
 		// Excluir archivos del SDK y de la carpeta estándar de Go
-		if !strings.Contains(file, "/pkg/mod/") && !strings.Contains(file, "/go/src/") {
+		if !strings.Contains(file, "/mod/") && !strings.Contains(file, "/go/src/") {
 			return file, nil
 		}
 	}

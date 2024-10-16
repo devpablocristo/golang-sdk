@@ -3,7 +3,7 @@ package mongodbdriver
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/nosql/mongodb/mongo-driver/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/nosql/mongodb/mongo-driver/ports"
 )
 
 func Bootstrap() (ports.Repository, error) {

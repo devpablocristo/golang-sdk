@@ -1,7 +1,7 @@
 package sdkgogit
 
 import (
-	ports "github.com/devpablocristo/golang/sdk/pkg/repo-tools/go-git/v5/ports"
+	ports "github.com/devpablocristo/golang-sdk/repo-tools/go-git/v5/ports"
 )
 
 func Bootstrap(repoRemoteUrl, repoLocalPath, repoBranch string) (ports.Client, error) {

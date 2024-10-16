@@ -6,7 +6,7 @@ import (
 
 	"github.com/gocql/gocql"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/nosql/cassandra/gocql/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/nosql/cassandra/gocql/ports"
 )
 
 var (

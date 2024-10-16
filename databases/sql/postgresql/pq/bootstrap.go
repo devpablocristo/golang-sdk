@@ -3,7 +3,7 @@ package sdkpg
 import (
 	"github.com/spf13/viper"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/sql/postgresql/pq/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/sql/postgresql/pq/ports"
 )
 
 func Bootstrap() (ports.Repository, error) {

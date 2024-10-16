@@ -9,7 +9,7 @@ import (
 	"go-micro.dev/v4/logger"
 	"go-micro.dev/v4/registry"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/micro-service/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/micro-service/ports"
 )
 
 var (

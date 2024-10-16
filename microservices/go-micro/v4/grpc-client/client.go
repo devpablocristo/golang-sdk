@@ -10,7 +10,7 @@ import (
 	gmclient "go-micro.dev/v4/client"
 	"go-micro.dev/v4/registry"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/grpc-client/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/grpc-client/ports"
 )
 
 var (

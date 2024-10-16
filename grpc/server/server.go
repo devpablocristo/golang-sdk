@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/grpc/server/ports"
+	ports "github.com/devpablocristo/golang-sdk/grpc/server/ports"
 )
 
 var (

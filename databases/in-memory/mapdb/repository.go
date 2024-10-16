@@ -3,7 +3,7 @@ package sdkmapdb
 import (
 	"sync"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/databases/in-memory/mapdb/ports"
+	ports "github.com/devpablocristo/golang-sdk/databases/in-memory/mapdb/ports"
 )
 
 var (

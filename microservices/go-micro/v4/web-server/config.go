@@ -3,7 +3,7 @@ package sdkgomicro
 import (
 	"fmt"
 
-	ports "github.com/devpablocristo/golang/sdk/pkg/microservices/go-micro/v4/web-server/ports"
+	ports "github.com/devpablocristo/golang-sdk/microservices/go-micro/v4/web-server/ports"
 	"github.com/google/uuid"
 )
 
