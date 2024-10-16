@@ -1,4 +1,4 @@
-package sdkpostgresql
+package sdkpg
 
 import (
 	"github.com/spf13/viper"

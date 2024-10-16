@@ -1,4 +1,4 @@
-package sdkmiddleware
+package sdkmwr
 
 import (
 	"errors"

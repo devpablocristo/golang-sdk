@@ -1,4 +1,4 @@
-package sdkawslocal
+package sdkawslcl
 
 import (
 	"fmt"

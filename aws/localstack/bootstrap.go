@@ -1,4 +1,4 @@
-package sdkawslocal
+package sdkawslcl
 
 import (
 	"github.com/spf13/viper"

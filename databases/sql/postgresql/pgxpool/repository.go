@@ -1,4 +1,4 @@
-package sdkpostgresql
+package sdkpg
 
 import (
 	"context"
