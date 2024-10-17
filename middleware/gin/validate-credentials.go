@@ -16,7 +16,7 @@ const (
 // ValidateCredentials middleware para validar el payload del login
 func ValidateCredentials() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
-		var loginRequest sdktypes.LoginRequest
+		var loginRequest sdktypes.LoginCredentials
 
 		// Manejo del binding y retorno de error en caso de fallo
 		if err := ctx.ShouldBindJSON(&loginRequest); err != nil {
