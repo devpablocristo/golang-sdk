@@ -11,12 +11,6 @@ type Token struct {
 	ExpiresAt    time.Time
 }
 
-// LoginCredentials representa las credenciales de inicio de sesión del usuario
-type LoginCredentials struct {
-	Username     string
-	PasswordHash string
-}
-
 type TokenClaims struct {
 	Subject   string
 	ExpiresAt time.Time

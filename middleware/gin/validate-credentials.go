@@ -4,12 +4,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-)
 
-type LoginRequest struct {
-	Username     string `json:"username" binding:"required"`
-	PasswordHash string `json:"password" binding:"required"`
-}
+	sdktypes "github.com/devpablocristo/golang-sdk/types"
+)
 
 // Constantes para los mensajes de error
 const (
@@ -19,7 +16,7 @@ const (
 // ValidateCredentials middleware para validar el payload del login
 func ValidateCredentials() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
-		var loginRequest LoginRequest
+		var loginRequest sdktypes.LoginRequest
 
 		// Manejo del binding y retorno de error en caso de fallo
 		if err := ctx.ShouldBindJSON(&loginRequest); err != nil {
